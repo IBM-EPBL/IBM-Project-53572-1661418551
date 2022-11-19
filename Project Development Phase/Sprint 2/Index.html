@@ -39,7 +39,7 @@
                 font-size: 2.3rem;
                 text-align: center;
                 width: fit-content;
-                border-bottom: 3px solid rgb(187, 58, 58);
+                border-bottom: 3px solid rgb(255, 255, 255);
         }
         .grid .content .description {
                 width: 100%;
@@ -56,8 +56,8 @@
                 max-width: 90%;
                 padding: 10px 20px;
                 text-align: center;
-                border-right: 1px solid #999999;
-                margin: 20px auto;
+                border-right: 1px solid #000000;
+                margin: 30px auto;
         }
         .grid .content .description .solution {
                 display: grid;
@@ -67,17 +67,18 @@
                 align-self: center;
                 max-width: 90%;
                 text-align: center;
+                border-bottom: 10px solid rgb(208, 10, 10);
                 padding: 10px 20px;
-                margin: 20px auto;
+                margin: 30px auto;
         }
         .grid .content .description .solution h3,
         .grid .content .description .problem h3 {
-                font-size: 1.7rem;
+                font-size: 30rem;
                 padding: 10px 0px;
         }
         .grid .content .description .solution p,
         .grid .content .description .problem p {
-                font-size: 1rem;
+                font-size: 30rem;
                 padding: 10px 0px;
         }
     </style>
@@ -85,26 +86,26 @@
   </head>
   <body>
     <section class="grid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div>
-        <a class="navbar-brand" href="#" style="color:rgb(201,186, 57)">DIABETIC RETINOPATHY CLASSIFICATION</a>
+        <a class="navbar-brand" href="#" style="color:rgb(0, 0, 0)">Diabetic Retinopathy Classification</a>
         </div>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
           <ul class="navbar-nav mr-auto text-center" id="navbarRight">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html" style="color: rgb(168,72,8);">Home </a>
+              <a class="nav-link" href="index.html" style="color: rgb(0, 0, 0);">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html" style="color: aliceblue;">Login</a>
+              <a class="nav-link" href="login.html" style="color: rgb(0, 0, 0);">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="register.html"style="color:rgb(102,180,95);">Register</a>
+              <a class="nav-link" href="register.html"style="color: rgb(0, 0, 0);">Register</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="prediction.html"style="color: aliceblue;">Prediction</a>
+              <a class="nav-link" href="prediction.html"style="color: rgb(0, 0, 0);">Prediction</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="logout.html"style="color: aliceblue;">Logout</a>
+              <a class="nav-link" href="logout.html"style="color: rgb(0, 0, 0);">Logout</a>
             </li>
           </ul>
         </div>
@@ -114,20 +115,21 @@
         </div>
         <div class="content">
           <div class="title">
-              <h3>Project Description </h3>
+              <h3>ABOUT THE PROJECT</h3>
               </div>
           </div>
         <div class="description">
           <div class="problem">
-              <h3>Problem</h3>
+              <h3>PROBLEM</h3>
+             
               <p>
-                ------>  Diabetic retinopathy is a diabetes complication that affects eyes. It's caused by damage to the blood vessels of the light-sensitive tissue at the back of the eye (retina). At first, diabetic retinopathy might cause no symptoms or only mild vision problems. But it can lead to blindness. The condition can develop in anyone who has type 1 or type 2 diabetes. The longer you have diabetes and the less controlled your blood sugar is, the more likely you are to develop this eye complication.
+                Diabetic Retinopathy (DR) is a common complication of diabetes mellitus, which causes lesions on the retina that affect vision. If it is not detected early, it can lead to blindness. Unfortunately, DR is not a reversible process, and treatment only sustains vision. DR early detection and treatment can significantly reduce the risk of vision loss. The manual diagnosis process of DR retina fundus images by ophthalmologists is time, effort and cost-consuming and prone to misdiagnosis unlike computer-aided diagnosis systems.
               </p>
           </div>
           <div class="solution">
-              <h3>Solution</h3>
+              <h3>SOLUTION</h3>
               <p>
-                ------>  In this project we will be building a Transfer Learning model that can detect and classify types of Diabetic Retinopathy. A web Application is integrated with the model, from where the user can upload a Diabetic Retinopathy(DR) image like Mild DR, Severe Dr etc, and see the analyzed results on User interface.
+                  In this project we will be building a Transfer Learning model that can detect and classify types of Diabetic Retinopathy. A web Application is integrated with the model, from where the user can upload a Diabetic Retinopathy(DR) image like Mild DR, Severe Dr etc, and see the analyzed results on User interface.
               </p>
               </div>
           </div>
